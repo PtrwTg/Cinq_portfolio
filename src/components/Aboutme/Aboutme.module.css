@@ -1,0 +1,76 @@
+.background {
+    background-color: #F3E7D8;
+    height: 100vh;
+  
+}
+@font-face {
+    font-family: 'MadimiOne';
+    src: url('MadimiOne-Regular.ttf') format('truetype');
+  }
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    padding: 50px; 
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .letter {
+    width: 50%; 
+    height: 100%; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+  }
+  
+  .letterImg {
+    max-width: 90%; 
+    height: auto; 
+    margin-left: 60px;
+  }
+  
+  .about {
+    width: 80%; 
+    height: 100%; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .aboutmeImg {
+    max-width: 100%;
+    height: auto; 
+    margin-top: -70px;
+  }
+
+
+  .bio, .skills {
+    position: absolute;
+    font-family: 'MadimiOne'; 
+    font-size: 25px;
+    margin-top: -50px;
+  }
+  
+  .bio {
+    top: 20%; /* หรือตำแหน่งที่ต้องการ */
+    left: 8%; /* หรือตำแหน่งที่ต้องการ */
+    color: #F3E7D8; /* สีข้อความ */
+  }
+  
+  .skills {
+    top: 50%; /* หรือตำแหน่งที่ต้องการ */
+    left: 60%; /* หรือตำแหน่งที่ต้องการ */
+    color: #F3E7D8; /* สีข้อความ */
+    /* เพิ่มการตั้งค่าสไตล์ต่างๆ ตามที่ต้องการ */
+  }
+
+  p {
+    line-height: 1.6;
+    -webkit-text-stroke: 0.5px #700B03;
+  }
+
+  

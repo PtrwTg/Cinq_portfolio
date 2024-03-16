@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .envelope {
+    width: 500px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 3rem;
+  }
+  
+  .tapToOpen {
+    margin-top: 1rem;
+    width: 250px;
+    height: auto;
+  }
