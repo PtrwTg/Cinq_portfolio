@@ -1,15 +1,15 @@
 .resumeContainer {
-    background-image: url('resumebg.png'); /* แก้ไข path ตามตำแหน่งภาพของคุณ */
+    background-image: url('resumebg.png'); 
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh; /* สูงขั้นต่ำเท่ากับความสูงของหน้าจอ */
+    min-height: 100vh; 
   }
 
 .bigbox {
     height: 75vh;
     margin-top: 10vh;
     display: flex;
-    margin-left: 220px;
+    margin-left: 150px;
     & .boxa {
         width: 100vh;
         height: 50vh;
