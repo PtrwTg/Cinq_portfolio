@@ -15,12 +15,9 @@ const App = () => {
         <AnimatedCursor
           innerSize={8}
           outerSize={8}
-          color='0, 65, 125'
+          color='193, 11, 111'
           outerAlpha={0.2}
-          innerScale={1.5}
-          outerStyle={{
-            border: '3px solid #fff'
-          }}
+          innerScale={0.7}
           outerScale={5}
           clickables={[
             'a',

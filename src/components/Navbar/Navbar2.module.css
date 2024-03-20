@@ -34,11 +34,22 @@
     }
     a {
       font-family: 'Florent';
+      margin-right: 50px;
     }
     
     .navbarLink:hover,
     .active {
       color: #700B03;
       border-bottom: 2px solid #F3E7D8;
+    }
+
+    .stickyNavbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 999;
     }
     

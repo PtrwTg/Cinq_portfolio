@@ -5,6 +5,8 @@ import Navbar from '../Navbar/Navbar';
 import aboutmeImg from './aboutme.png'; 
 import letterImg from './openedletter.png'; 
 import { Tilt } from 'react-tilt';
+import { TypeAnimation } from 'react-type-animation'
+
 
 const Aboutme = () => {
   return (
@@ -24,7 +26,28 @@ const Aboutme = () => {
             <p>My name is Cinq. I am a graphic designer <br />who is interested in Ux/Ui design. I love <br /> to find new inspiration from various <br /> trends. I am studying in the faculty of <br />multimedia and technology at MFU.</p>
           </div>
           <div className={styles.skills}>
-            <p>here's my skill</p>
+          <TypeAnimation
+              sequence={[
+                'here\'s my skill', 
+                1000,
+                'Figma :)',
+                1000,
+                'Adobe illustrator', 
+                1000,
+                'Photoshop',
+                1000,
+                'Pro create',
+                1000,
+                'Unity',
+                1000
+
+                
+              ]}
+              wrapper="p"
+              cursor={true}
+              repeat={Infinity}
+              style={{ fontSize: '1em' }}
+            />
           </div>
         </div>
       </div>

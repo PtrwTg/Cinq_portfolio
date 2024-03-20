@@ -4,6 +4,7 @@ import styles from './Resume.module.css'
 import whitebubbleImage from './whitebubble.png'; 
 import resumeImg from './assetresume.png'; 
 import buttonImg from './symboldowload.png'; 
+import { Tilt } from 'react-tilt';
 
 const handleDownload = () => {
   const fileUrl = '/Phurichaya.pdf';

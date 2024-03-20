@@ -1,8 +1,8 @@
 .resumeContainer {
-    background-image: url('resumebg.png'); 
+    background-image: url('resumebg.png'); /* แก้ไข path ตามตำแหน่งภาพของคุณ */
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 100vh; /* สูงขั้นต่ำเท่ากับความสูงของหน้าจอ */
   }
 
 .bigbox {
@@ -58,7 +58,7 @@
             margin-left: 30px;
             height: auto;
             position: absolute;
-            margin-top: 330px;
+            margin-top: 340px;
         }
     }
 }
